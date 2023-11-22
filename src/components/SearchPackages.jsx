@@ -60,11 +60,7 @@ const SearchPackages = ({ addToFavorites }) => {
                 value={searchTerm}
                 onChange={handleInputChange}
             />
-            <button
-                className="ml-2 p-2 bg-blue-500 text-white rounded hover:bg-blue-700"
-            >
-                Search
-            </button>
+           
             <div className="mt-4 max-h-60 overflow-y-auto">
                 <ul>
                     {searchResults.map((result) => (
