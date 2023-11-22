@@ -19,8 +19,8 @@ function App() {
   console.log(favorites)
   return (
     <Routes>
-        <Route path="/" element={<SearchPackages addToFavorites={addToFavorites}/>} />
-        <Route path="/favorites" element={<Favorites favorites={[]} removeFromFavorites={removeFromFavorites} addToFavorites={addToFavorites}/>} />
+        <Route path="/favorites" element={<SearchPackages addToFavorites={addToFavorites}/>} />
+        <Route path="/" element={<Favorites favorites={[]} removeFromFavorites={removeFromFavorites} addToFavorites={addToFavorites}/>} />
     </Routes>
   )
 }
